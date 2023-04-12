@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    height: 100vh;
+    
+}
+
+
+
+:focus {
+    outline: none;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 50px;
+}
+
+.navbar ul {
+    display: flex; 
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: #4c4c4c;
+}
+
+.navbar ul li a.account {
+    display: block;
+    background: #283a50;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+}
+
+.navbar ul li a.account:hover {
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    flex-direction: column;
+}
+
+.search {
+   display: flex;
+   align-items: center;
+    margin-top: 60px;
+   background-color: #f7f7f7;
+   height: 40px;
+   border-radius: 40px;
+   padding: 30px;
+   box-shadow: 0 1px 6px 0 #afafaf;
+}
+
+.tbox-search {
+    float: left;
+    background: none;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 24px;
+    width: 600px;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5b5b5b;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+
+
